@@ -17,25 +17,25 @@ Você precisa acessar a ferramenta de gerenciamento de disco do Windows para pod
 
 Antes de instalar seus jogos do PS2 em seu dispositivo USB, você precisa fazer uma imagem deles usando seu software favorito (você pode usar o [ImgBurn](https://imgburn.com/) para isso). Você também precisa criar uma pasta de CD e DVD na raiz do seu dispositivo USB.
 
-O OPL suporta ambos os formatos do USBExtreme (ul.xxxxxxx) ou no formato de .iso. O método de instalação dependerá do tamanho da imagem do jogo.
+O OPL suporta ambos os formatos do USBExtreme `ul.xxxxxxx` ou no formato de `.iso`. O método de instalação dependerá do tamanho da imagem do jogo.
 
-* **Tamanho dos jogos de PS2 menores que 700MB :** Você pode colocar esses jogos em formato de .iso na pasta **CD** do seu OPL (mass:/CD). Lembre-se que você também pode convertê-los para o formato do USBExtreme. Lembre-se também que você **NÃO PRECISA** mais renomeá-los usando a sintxe antiga <ID_do_Jogo>.Nome do jogo.iso (Exemplo : SLES_544.39.Okami.iso) que foi introduzida no OPL 0.8, embora ele ainda aceite esse formato.
+* **Tamanho dos jogos de PS2 menores que 700MB :** Você pode colocar esses jogos em formato de .iso na pasta `CD` do seu OPL `mass:/CD`. Lembre-se que você também pode convertê-los para o formato do USBExtreme. Lembre-se também que você **NÃO PRECISA** mais renomeá-los usando a sintxe antiga <ID_do_Jogo>.Nome do jogo.iso (Exemplo : SLES_544.39.Okami.iso) que foi introduzida no OPL 0.8, embora ele ainda aceite esse formato.
 
-* **Tamanho dos jogos de PS2 maiores que 700MB, mas menores que 4GB:** Você pode colocar esses jogos em formato de .iso na pasta **DVD** do seu OPL (mass:/DVD). Lembre-se que você também pode convertê-los para o formato do USBExtreme. Lembre-se também que você **NÃO PRECISA** mais renomeá-los usando a sintxe antiga <ID_do_Jogo>.Nome do jogo.iso (Exemplo : SLES_544.39.Okami.iso) que foi introduzida no OPL 0.8, embora ele ainda aceite esse formato.
+* **Tamanho dos jogos de PS2 maiores que 700MB, mas menores que 4GB:** Você pode colocar esses jogos em formato de .iso na pasta `DVD` do seu OPL `mass:/DVD`. Lembre-se que você também pode convertê-los para o formato do USBExtreme. Lembre-se também que você **NÃO PRECISA** mais renomeá-los usando a sintxe antiga <ID_do_Jogo>.Nome do jogo.iso (Exemplo : SLES_544.39.Okami.iso) que foi introduzida no OPL 0.8, embora ele ainda aceite esse formato.
 
 * **Tamanho dos jogos de PS2 maiores que 4GB :** Devido as limitações do sistema FAT32, você vai **PRECISAR** converter seus jogos que estão em iso para o formato do USBExtreme. Ele será cortado em várias partes (ul.xxxxxxx1, ul.xxxxxxx2, etc) que será compatível com as limitações do sistema do FAT32. Você também poderá diminuir o tamanho da sua .iso (removendo os arquivos dummies caso estejam presentem na imagem) para ter um tamanho menor que 4GB.
 
-**Observação:** De acordo com o arquivo supportbase.h do código fonte, o tamanho máximo do nome nos jogo devem ser respeitados, sendo assim:
+**Observação:** De acordo com o arquivo `supportbase.h` do código fonte, o tamanho máximo do nome nos jogo devem ser respeitados, sendo assim:
 
-* #define UL_GAME_NAME_MAX 32: Jogos no formato USBExtreme não pode ultrapassar 32 caracteres.
-* #define ISO_GAME_NAME_MAX 64: Jogos no formato ISO não pode ultrapassar 64 caracteres.
+* `#define UL_GAME_NAME_MAX 32`: Jogos no formato USBExtreme não pode ultrapassar 32 caracteres.
+* `#define ISO_GAME_NAME_MAX 64`: Jogos no formato ISO não pode ultrapassar 64 caracteres.
 
 A ferramenta de instalação compatível com o formato USBExtreme é o [USBUtil 2.2](https://www.psx-place.com/attachments/usbutil_v2-2_rev1-0_en-english-7z.12773/).  
 Você pode encontrar um guia completo sobre isso [aqui](https://www.psx-place.com/attachments/tutorial-usbutil-2-0-zip.12775/).
 
 ## *Modo USB do Open PS2 Loader:*
 
-Você precisa habilitar o dispositivo USB antes de usá-lo. No menu do OPL, vá nas Configurações e defina o modo de início no USB como Manual ou Automático. Agora você conseguirá acessar a página de jogos no USB. Mas se você habilitou o dispositivo e se seus jogos do PS2 não estão sendo exibidos na página, existem algumas coisas possíveis que você deve verificar:
+Você precisa habilitar o dispositivo USB antes de usá-lo. No menu do OPL, vá nas Configurações e defina o `modo de início no USB` como `Manual` ou `Automático`. Agora você conseguirá acessar a página de jogos no USB. Mas se você habilitou o dispositivo e se seus jogos do PS2 não estão sendo exibidos na página, existem algumas coisas possíveis que você deve verificar:
 
 * Seu dispositivo USB não está formatado em FAT32.
 * Se você usou o formato USBExtreme, eles podem não ter sido instalados corretamente.
