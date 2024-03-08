@@ -1,10 +1,10 @@
 # Jogos no USB
 
 O Open PS2 Loader 1.0.0 suporta o tipo de dispositivos de armazenamento USB com até 2 TB (limite máximo).  
-Seu <span style="color:blue">some blue text</span> dispositivo deve ter apenas uma partição e ser formatado em FAT32.
+Seu <span style="color: green">some blue text</span> dispositivo <font color=#00ff00>other color</font> deve ter apenas uma partição e ser formatado em FAT32.
 Seus jogos devem estar no formato USBExtreme com uma ferramenta específica ou até mesmo no formato \*.iso (imagem de disco ISO9660).
 
-**Observação:** Não use dispositivos USB da marca Kingston em geral - corrupções e perdas de dados serão frequentes.
+**Observação:** Não use dispositivos USB da marca <span style="color: lightgreen">some blue text</span> Kingston em geral - corrupções e perdas de dados serão frequentes.
 
 ![](./gfx/usb.png)
 
