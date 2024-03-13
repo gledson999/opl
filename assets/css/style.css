@@ -598,8 +598,10 @@ a:hover {
 }
 .index-button:hover {
   background-color: white;
-  box-shadow: 0 0 5px #fff, 0 0 12px #fff, 0 0 25px #fff,
-    0 0 50px #fff;
+  mix-blend-mode: screen;
+  text-decoration: none;
+  color: black;
+  box-shadow: 0 0 5px #fff, 0 0 12px #fff, 0 0 25px #fff, 0 0 50px #fff;
 }
 .index-button:focus {
   outline: none;
