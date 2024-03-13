@@ -580,6 +580,10 @@ a:hover {
   max-width:100%;
   border: 1px solid;
 }
+.main-content img[src*='#center'] {
+  display: block;
+  margin: auto;
+}
 .main-content h1 {
   font-size:2.5em;
   margin-bottom:4px;
