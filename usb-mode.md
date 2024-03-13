@@ -6,7 +6,7 @@ Seus jogos devem estar no formato USBExtreme com uma ferramenta específica ou a
 
 **Observação:** Não use dispositivos USB da marca Kingston em geral - corrupções e perdas de dados serão frequentes.
 
-![](./gfx/usb.png)
+![](./gfx/usb.png#center)
 
 ## *Formatando seu dispositivo USB:*
 
