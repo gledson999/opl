@@ -51,4 +51,5 @@ Você pode usar o [Auslogics DiskDefrag](https://www.auslogics.com/en/software/d
 <hr>
 
 # [**Índice**](./index.html)
-<button class="index-button">INDEX</button>
+<button class="index-button">ÍNDICE</button>
+<a href="./index.html" class="index-button">Link Button</a>
