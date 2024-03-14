@@ -766,7 +766,7 @@ a:hover {
   border:0
 }
 .site-footer {
-  padding-top:2rem;
+  padding-top:0.4rem;
   border-top:solid 1px #eff0f1;
 }
 @media screen and (min-width: 64em) {
