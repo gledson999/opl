@@ -1,7 +1,7 @@
-# Jogos no USB
+# Jogos no BDM
 
-O Open PS2 Loader 1.0.0 suporta o tipo de dispositivos de armazenamento USB com até 2 TB (limite máximo).  
-Seu dispositivo deve ter apenas uma partição e ser formatado em FAT32.
+O Open PS2 Loader 1.0.0 suporta os tipo de dispositivos de armazenamento de USB, MX4SIO e iLink com até 2 TB (limite máximo).  
+Seu dispositivo deve ter apenas uma partição e ser formatado em FAT32 ou ExFat.
 Seus jogos devem estar no formato USBExtreme com uma ferramenta específica ou até mesmo no formato \*.iso (imagem de disco ISO9660).
 
 **Observação:** Não use dispositivos USB da marca Kingston em geral - corrupções e perdas de dados serão frequentes.
@@ -33,9 +33,9 @@ O OPL suporta ambos os formatos do USBExtreme `ul.xxxxxxx` ou no formato de `.is
 A ferramenta de instalação compatível com o formato USBExtreme é o [USBUtil 2.2](https://www.psx-place.com/attachments/usbutil_v2-2_rev1-0_en-english-7z.12773/).  
 Você pode encontrar um guia completo sobre isso [aqui](https://www.psx-place.com/attachments/tutorial-usbutil-2-0-zip.12775/).
 
-## *Modo USB do Open PS2 Loader:*
+## *Modo BDM do Open PS2 Loader:*
 
-Você precisa habilitar o dispositivo USB antes de usá-lo. No menu do OPL, vá nas Configurações e defina o <span style="color: lawngreen">modo de início no USB</span> como `Manual` ou `Automático`. Agora você conseguirá acessar a página de jogos no USB. Mas se você habilitou o dispositivo e se seus jogos do PS2 não estão sendo exibidos na página, existem algumas coisas possíveis que você deve verificar:
+Você precisa habilitar o dispositivo USB antes de usá-lo. No menu do OPL, vá nas Configurações e defina o <span style="color: lawngreen">modo de início no BDM</span> como `Manual` ou `Automático`. Agora você conseguirá acessar a página de jogos no USB. Mas se você habilitou o dispositivo e se seus jogos do PS2 não estão sendo exibidos na página, existem algumas coisas possíveis que você deve verificar:
 
 * Seu dispositivo USB não está formatado em FAT32.
 * Se você usou o formato USBExtreme, eles podem não ter sido instalados corretamente.
