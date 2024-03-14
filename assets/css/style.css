@@ -586,6 +586,9 @@ a:hover {
 }
 .index-button {
   padding: 0px 16px;
+  display: block;
+  width: 20%;
+  margin: auto;
   border: none;
   border-radius: 36px;
   font-size: 36px;
