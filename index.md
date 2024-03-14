@@ -37,11 +37,11 @@ formato do HDLoader. Fazendo dele um carregador extremamente compatível.
 * [Navegação/Controles no menu](./nav-controls.html#navigationcontrols)
 * [Navegação/Controles nos jogos/aplicativos](./nav-controls.html#in-the-games-apps-pages)
 
-**[2. Jogos no USB](./usb-mode.html)**
+**[2. Jogos no BDM](./usb-mode.html)**
 
-* [Formatando seu dispositivo USB](./usb-mode.html#formatando-seu-dispositivo)
+* [Formatando seu dispositivo](./usb-mode.html#formatando-seu-dispositivo)
 * [Instalando os jogos do PS2](./usb-mode.html#instalando-os-jogos-do-ps2)
-* [Modo USB do Open PS2 Loader](./usb-mode.html#modo-bdm-do-open-ps2-loader)
+* [Modo BDM do Open PS2 Loader](./usb-mode.html#modo-bdm-do-open-ps2-loader)
 * [Desfragmentação](./usb-mode.html#desfragmentação)
 
 **[3. Jogos em ETH](./eth-mode.html)**
