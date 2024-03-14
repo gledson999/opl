@@ -8,7 +8,7 @@ Seus jogos devem estar no formato USBExtreme com uma ferramenta específica ou a
 
 ![](./gfx/usb.png#center)
 
-## *Formatando seu dispositivo USB:*
+## *Formatando seu dispositivo:*
 
 Atualmente, apenas o formato do sistema FAT32 é usado para os jogos no USB. O método recomendado é primeiro formatar seu dispositivo USB com o Windows para sistema de arquivos NTFS para garantir que você tenha uso total do espaço da unidade, depois formatá-lo novamente para FAT32 antes de instalar qualquer jogo.
 Você precisa acessar a ferramenta de gerenciamento de disco do Windows para poder formatar seu dispositivo USB. Leia [aqui](https://www.lifewire.com/how-to-open-disk-management-2626080) para descobrir como fazer isso de acordo com o seu sistema operacional. Em alguns sistemas operacionais, você também pode acessá-lo clicando com o botão direito do mouse no dispositivo USB no Windows Explorer. Se você for questionado sobre o tamanho das alocações durante o processo, deixe-os como padrão. Agora que seu dispositivo USB está formatado em FAT32, você estará pronto para instalar seus jogos PS2.
@@ -51,4 +51,3 @@ Você pode usar o [Auslogics DiskDefrag](https://www.auslogics.com/en/software/d
 <hr>
 
 <a href="./index.html" class="index-button">VOLTAR</a>
-<a href="./index.html" class="index-button"><span>Click!</span><span>Read More</span></a>
