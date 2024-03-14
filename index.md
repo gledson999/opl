@@ -1,4 +1,4 @@
-# Open PS2 Loader 1.0.0 - Guia de Usuário
+# OPL 1.0.0 - Guia de Usuário
 
 *[Alerta: Isto não é um repositório oficial do OPL, apenas um guia do
 usuário para ele. Caso esteja interessado no código fonte do OPL, você
