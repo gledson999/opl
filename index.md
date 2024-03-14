@@ -1,4 +1,4 @@
-# OPL 1.0.0 - Guia de Usuário
+# Guia do Usuário
 
 *[Alerta: Isto não é um repositório oficial do OPL, apenas um guia do
 usuário para ele. Caso esteja interessado no código fonte do OPL, você
@@ -39,10 +39,10 @@ formato do HDLoader. Fazendo dele um carregador extremamente compatível.
 
 **[2. Jogos no USB](./usb-mode.html)**
 
-* [Formatando seu dispositivo USB](./usb-mode.html#formating-your-usb-device)
-* [Instalando os jogos do PS2](./usb-mode.html#installing-ps2-games)
-* [Modo USB do Open PS2 Loader](./usb-mode.html#opl-usb-mode)
-* [Desfragmentação](./usb-mode.html#defragmentation)
+* [Formatando seu dispositivo USB](./usb-mode.html#formatando-seu-dispositivo)
+* [Instalando os jogos do PS2](./usb-mode.html#instalando-os-jogos-do-ps2)
+* [Modo USB do Open PS2 Loader](./usb-mode.html#modo-bdm-do-open-ps2-loader)
+* [Desfragmentação](./usb-mode.html#desfragmentação)
 
 **[3. Jogos em ETH](./eth-mode.html)**
 
