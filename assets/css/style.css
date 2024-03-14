@@ -789,6 +789,9 @@ a:hover {
   font-weight:bold
 }
 .site-footer-credits {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  height: 0px;
   color:#fff;
-  font-size: 22px;
 }
