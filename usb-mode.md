@@ -50,4 +50,4 @@ Você pode usar o [Auslogics DiskDefrag](https://www.auslogics.com/en/software/d
 
 <hr>
 
-<a href="./index.html" class="index-button">Índice</a>
+<a href="./index.html" class="index-button">VOLTAR</a>
